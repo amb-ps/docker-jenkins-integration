@@ -10,7 +10,7 @@ public class ProductController {
 
     @GetMapping("/products")
     public List<String> findAllProducts() {
-        return Arrays.asList("Product1","Product2","Product3","Product4");
+        return Arrays.asList("Product1","Product2","Product3","Product4","Product5");
     }
 
 }
